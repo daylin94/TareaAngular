@@ -1,0 +1,12 @@
+<div>
+    <img *ngIf="resultado" src="/assets/imagen.jpg" alt="">
+    <h2>Informacion personal de la Programadora</h2>
+    <h3>Daylin Hernandez Murillo</h3>
+    <p class="p">Edad:{{edad}}</p>
+    <p class="p2">Pasatiempos:</p>
+    <ul>
+        <li *ngFor="let item of gustos">{{item}}</li>
+    </ul>
+
+    <button class="boton" (click)="Ocultar()">Ocultar</button>
+</div>
