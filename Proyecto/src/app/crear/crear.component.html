@@ -1,1 +1,4 @@
-<p>crear works!</p>
+<div>
+    <h1>Lista de invitados</h1>
+<app-tarjeta-invitado *ngFor="let item of nombresPersonas;let i=index" [edad]="edadesPersona[i]" [nombre]="item"></app-tarjeta-invitado>
+</div>

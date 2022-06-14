@@ -13,6 +13,7 @@ import { SobreComponent } from './sobre/sobre.component';
 import { TarjetasComponent } from './tarjetas/tarjetas.component';
 import { MoreComponent } from './more/more.component';
 import { CrearComponent } from './crear/crear.component';
+import { TarjetaInvitadoComponent } from './tarjeta-invitado/tarjeta-invitado.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { CrearComponent } from './crear/crear.component';
     SobreComponent,
     TarjetasComponent,
     MoreComponent,
-    CrearComponent
+    CrearComponent,
+    TarjetaInvitadoComponent
   ],
   imports: [
     BrowserModule,

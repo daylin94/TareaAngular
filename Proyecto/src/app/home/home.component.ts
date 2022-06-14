@@ -7,7 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
  
+  nombresRecibidos:Array<string>=['']
+  edadRecibidas:Array<number>=[]
 
+  agregarNombreRecibido(nombreRecibido:string){
+    this.nombresRecibidos.push(nombreRecibido)
+  }
+  agregarEdadRecibida(edadRecibida:number){
+    this.edadRecibidas.push(edadRecibida)
+  }
 
   constructor() { }
 

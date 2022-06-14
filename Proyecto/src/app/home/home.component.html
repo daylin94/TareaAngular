@@ -1,2 +1,9 @@
-<app-info ></app-info>
+<div>
+    <app-info (enviarEdad)="agregarEdadRecibida($event)" (enviarPersona)="agregarNombreRecibido($event)"></app-info>
+    <section>
+        <p *ngFor="let item of nombresRecibidos" >{{item}}</p>
+    </section>
+    <app-crear [edadesPersona]="edadRecibidas" [nombresPersonas]="nombresRecibidos"></app-crear>
+</div>
+
 
