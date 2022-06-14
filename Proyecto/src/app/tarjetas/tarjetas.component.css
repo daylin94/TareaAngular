@@ -1,0 +1,63 @@
+.contenedorPadre{
+display: flex;
+flex-direction: column;
+text-align: center;
+width: 30%;
+border: rgb(204, 204, 141) solid;
+height: 550px;
+}
+
+.contenedorimagen{
+    width: 100%;
+    height: 60%;
+
+}
+
+.contenedorHijo{
+    height: 40%;
+}
+
+#reciclar{
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    font-size: 100%;
+    opacity: 0.6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    font-size: 90%;
+    opacity: 0.4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: 30%;
+    height: 20%;
+    border-radius: 3px;
+    background-color: rgb(251, 251, 251);
+    border-color: rgb(229, 247, 184);
+    text-align: center;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+button:hover{
+    opacity: 0.6;
+    cursor: not-allowed;
+    cursor: pointer;
+    background-color: rgb(225, 229, 203);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+button:active {
+    background-color: #b3a7fe;
+    box-shadow: 0 7px rgb(220, 219, 242);
+    transform: translateY(3px);
+}

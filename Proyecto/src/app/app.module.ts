@@ -10,6 +10,9 @@ import { ProfileComponent } from './profile/profile.component';
 import { AboutComponent } from './about/about.component';
 import { InfoComponent } from './info/info.component';
 import { SobreComponent } from './sobre/sobre.component';
+import { TarjetasComponent } from './tarjetas/tarjetas.component';
+import { MoreComponent } from './more/more.component';
+import { CrearComponent } from './crear/crear.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { SobreComponent } from './sobre/sobre.component';
     ProfileComponent,
     AboutComponent,
     InfoComponent,
-    SobreComponent
+    SobreComponent,
+    TarjetasComponent,
+    MoreComponent,
+    CrearComponent
   ],
   imports: [
     BrowserModule,
